@@ -80,15 +80,17 @@
             setTimeout(function(){$('#service_1').addClass('animated fadeInDown')},300);
             setTimeout(function(){$('#service_2').addClass('animated fadeInDown')},500);
             setTimeout(function(){$('#service_3').addClass('animated fadeInDown')},700);
-            setTimeout(function(){$('#bio-info').addClass('animated fadeInDown')},1200);
         }, { offset: '50%' });
 
         $('#bio').waypoint(function() {
-            setTimeout(function(){$('#bio-info').addClass('animated fadeInDown')},300);
+            setTimeout(function(){$('#bio-intro').addClass('animated fadeInDown')},0);
+            setTimeout(function(){$('#bio-info-1').addClass('animated fadeInDown')},700);
+            setTimeout(function(){$('#bio-info-2').addClass('animated fadeInDown')},1000);
         }, { offset: '50%' });
  
         $('#features_1').waypoint(function() {
-            setTimeout(function(){$('#features_1_content').addClass('animated fadeInDown')},0);
+            setTimeout(function(){$('#features_1_intro').addClass('animated fadeInDown')},0);
+            setTimeout(function(){$('#features_1_content').addClass('animated fadeInDown')},300);
             setTimeout(function(){$('#features1a_image').addClass('animated fadeInRight')},600);
             setTimeout(function(){$('#features1b_image').addClass('animated fadeInRight')},900);
             setTimeout(function(){$('#features1c_image').addClass('animated fadeInRight')},1200);
@@ -96,7 +98,8 @@
         }, { offset: '50%' });
  
         $('#features_2').waypoint(function() {
-            setTimeout(function(){$('#features_2_content').addClass('animated fadeInDown')},0);
+            setTimeout(function(){$('#features_2_intro').addClass('animated fadeInDown')},0);
+            setTimeout(function(){$('#features_2_content').addClass('animated fadeInDown')},300);
             setTimeout(function(){$('#features2a_image').addClass('animated fadeInLeft')},600);
             setTimeout(function(){$('#features2b_image').addClass('animated fadeInLeft')},900)
             setTimeout(function(){$('#features2c_image').addClass('animated fadeInLeft')},1200)
@@ -104,7 +107,8 @@
         }, { offset: '50%' });
 
         $('#features_4').waypoint(function() {
-            setTimeout(function(){$('#features_4_content').addClass('animated fadeInDown')},0);
+            setTimeout(function(){$('#features_4_intro').addClass('animated fadeInDown')},0);
+            setTimeout(function(){$('#features_4_content').addClass('animated fadeInDown')},300);
             setTimeout(function(){$('#features4a_image').addClass('animated fadeInRight')},600);
             setTimeout(function(){$('#features4b_image').addClass('animated fadeInRight')},900)
             setTimeout(function(){$('#features4c_image').addClass('animated fadeInRight')},1200)
@@ -112,7 +116,8 @@
         }, { offset: '50%' });
 
         $('#features_5').waypoint(function() {
-            setTimeout(function(){$('#features_5_content').addClass('animated fadeInDown')},0);
+            setTimeout(function(){$('#features_5_intro').addClass('animated fadeInDown')},0);
+            setTimeout(function(){$('#features_5_content').addClass('animated fadeInDown')},300);
             setTimeout(function(){$('#features5a_image').addClass('animated fadeInLeft')},600);
             setTimeout(function(){$('#features5b_image').addClass('animated fadeInLeft')},900)
             setTimeout(function(){$('#features5c_image').addClass('animated fadeInLeft')},1200)

@@ -446,7 +446,7 @@ hr {
     text-align:center;
 }
 
-#about_intro, #bio-info {
+#about_intro, #bio-intro, #bio-info-1, #bio-info-2 {
     opacity:0;
 }
 
@@ -622,7 +622,7 @@ hr {
     height: 65vh;
 } */
 
-#features_1_content, #features1a_image, #features1b_image, #features1c_image, #features1d_image {opacity:0;}
+#features_1_content, #features_1_intro, #features1a_image, #features1b_image, #features1c_image, #features1d_image {opacity:0;}
 
 
 /*######################################*/
@@ -645,7 +645,7 @@ hr {
 }
 
 
-#features_2_content, #features2a_image, #features2b_image, #features2c_image, #features2d_image {opacity:0;}
+#features_2_content, #features_2_intro, #features2a_image, #features2b_image, #features2c_image, #features2d_image {opacity:0;}
 
 /*######################################*/
 /*FEATURES 4 ###########################*/
@@ -667,7 +667,7 @@ hr {
 }
 
 
-#features_4_content, #features4a_image, #features4b_image, #features4c_image, #features4d_image {opacity:0;}
+#features_4_content, #features_4_intro, #features4a_image, #features4b_image, #features4c_image, #features4d_image {opacity:0;}
 
 /*######################################*/
 /*FEATURES 5 ###########################*/
@@ -689,7 +689,7 @@ hr {
 }
 
 
-#features_5_content, #features5a_image, #features5b_image, #features5c_image, #features5d_image {opacity:0;}
+#features_5_content, #features_5_intro, #features5a_image, #features5b_image, #features5c_image, #features5d_image {opacity:0;}
 
 
 /*######################################*/
