@@ -87,6 +87,10 @@
             setTimeout(function(){$('#bio-info-1').addClass('animated fadeInDown')},700);
             setTimeout(function(){$('#bio-info-2').addClass('animated fadeInDown')},1000);
         }, { offset: '50%' });
+
+        $('#before_features_1').waypoint(function() {
+            setTimeout(function(){$('#before_features_1_intro').addClass('animated fadeInDown')},0);
+        }, { offset: '50%' });
  
         $('#features_1').waypoint(function() {
             setTimeout(function(){$('#features_1_intro').addClass('animated fadeInDown')},0);

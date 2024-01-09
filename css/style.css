@@ -539,7 +539,16 @@ hr {
 }
 
 
-
+#before_features_1 {
+    margin:0px;
+    padding-top:3.25rem;
+    padding-bottom:3.25rem;
+    background:white;
+    position:relative;
+    display:block;
+    z-index:20;
+    text-align:left;
+}
 
 
 /*######################################*/
@@ -622,7 +631,7 @@ hr {
     height: 65vh;
 } */
 
-#features_1_content, #features_1_intro, #features1a_image, #features1b_image, #features1c_image, #features1d_image {opacity:0;}
+#features_1_content, #before_features_1_intro, #features1a_image, #features1b_image, #features1c_image, #features1d_image {opacity:0;}
 
 
 /*######################################*/
