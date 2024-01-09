@@ -25,7 +25,8 @@ body {
 .owl-theme .owl-controls .owl-page.active span,
 .owl-theme .owl-controls.clickable .owl-page:hover span,
 .cta2 {
-    background-color: #a7cb00;
+    /* background-color: #a7cb00; */
+    background-color: #60C9E5;
 }
 
 
@@ -69,7 +70,8 @@ h3 {
 }
 
 h4 {
-    color:#a7cb00;
+    /* color:#a7cb00; */
+    color: #60C9E5;
 }
 
 .feature_icon {
@@ -103,7 +105,8 @@ h4 {
 }
 
 #pagination a.active h3, .dev_blog_post a, .comment a  {
-    color:#a7cb00
+    /* color:#a7cb00 */
+    color: #60C9E5;
 }
 
 .comment {

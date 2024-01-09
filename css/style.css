@@ -268,6 +268,7 @@ hr {
   /* Prevent first frame from flickering when animation starts */
   -webkit-animation-fill-mode: both;
   animation-fill-mode: both;
+  background-color: #60C9E5 !important;
 }
 
 .spinner .bounce1 {
@@ -372,17 +373,34 @@ hr {
     text-align:center;
 }
 
-#logo {
+/* #logo {
     position: absolute;
     top: 5px;
     left: 42.5rem;
-    /* margin-left: auto;
-    margin-right: auto; */
+    margin-left: auto;
+    margin-right: auto;
     z-index: 1;
-    /* margin-top: 4.875rem; */
+    margin-top: 4.875rem;
     margin-bottom: 0.4rem;
     opacity:1;
+} */
+
+#logo_parent {
+    position: absolute;
+    top: 10%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 1;
+    opacity: 1;
+    margin-top: 2rem;
 }
+
+#logo > a > img {
+    max-width: 100%;
+    height: auto;
+}
+
+@media only screen and (max-width: 600px) {}
 
 #logo_header {
     margin-bottom:4.3rem
